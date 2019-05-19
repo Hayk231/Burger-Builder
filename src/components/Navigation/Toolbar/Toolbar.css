@@ -1,0 +1,36 @@
+.ToolBar {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #703B09;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.ToolBar nav {
+    height: 100%;
+}
+
+.logo {
+    background-image: url("https://media.giphy.com/media/FHkTZV8e2KGoo/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    width: 85px;
+    height: 100%;
+    cursor: pointer;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+    /*.logo {*/
+        /*display: none;*/
+    /*}*/
+}
